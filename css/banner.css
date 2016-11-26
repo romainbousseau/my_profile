@@ -1,14 +1,13 @@
 .banner {
+  background-image: url(../images/background.jpg);
   color: white;
   text-align: center;
   height: 100vh;
-  background-image: url('images/background.jpg');
   background-size: cover !important;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
 .banner h1 {
   font-family: 'Oswald', sans-serif;
   font-size: 50px;
