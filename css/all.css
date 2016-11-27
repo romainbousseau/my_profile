@@ -2,6 +2,7 @@
 @import url("banner.css");
 @import url("navbar.css");
 @import url("card.css");
+@import url("button.css");
 
 /* Import fonts*/
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Oswald:400,700');
@@ -23,4 +24,18 @@
   margin-top: 100px;
   margin-bottom: 50px;
 }
+
+.title2 {
+  font-family: 'Open sans', sans-serif;
+  font-weight: lighter;
+}
+
+h4 {
+  font-family: 'Open sans', sans-serif;
+}
+
+p {
+  font-family: 'Open sans', sans-serif;
+}
+
 

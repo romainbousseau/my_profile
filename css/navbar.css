@@ -10,6 +10,17 @@
   justify-content: space-between;
 }
 
+.navbar-wagon a {
+  text-decoration: none !important;
+  color: #364F6B;
+  transition: color 0.3s ease;
+}
+
+.navbar-wagon a:hover {
+  text-decoration: none !important;
+  color: #FC5185;
+}
+
 /* Optional class to fix the navbar on top */
 .navbar-wagon-fixed.affix {
   position: fixed;
