@@ -12,7 +12,7 @@
 
 <body>
 <!-- Banner -->
-  <div class="banner">
+  <div class="banner hidden-xs">
     <div class="banner-content">
       <h1>ROMAIN BOUSSEAU</h1>
       <p style="margin-bottom: 50px;">Web developer & Graphic designer</p>
@@ -55,9 +55,12 @@
       <div class="dropdown">
         <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
         <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
-          <li><a href="#">Some mobile link</a></li>
-          <li><a href="#">Other one</a></li>
-          <li><a href="#">Other one</a></li>
+          <li><a href="#Anchor-about" id="anchor-about">About</a></li>
+          <li><a href="#Anchor-skills" id="anchor-skills">Skills</a></li>
+          <li><a href="#Anchor-work" id="anchor-work">Work</a></li>
+          <li><a href="#Anchor-education" id="anchor-education">Education</a></li>
+          <li><a href="#Anchor-collective" id="anchor-collective">Collective</a></li>
+          <li><a href="#Anchor-contact" id="anchor-contact">Contact</a></li>
         </ul>
       </div>
     </div>
@@ -227,16 +230,18 @@
       <h1 class="text-center title">CONTACT</h1>
       <div class="row">
         <div class="col-xs-12 col-sm-4 col-sm-offset-4">
-          <div class="form-group">
-            <label for="email" style="color: #F5F5F5; font-size: 20px;">email</label>
-            <input type="email" placeholder="johndoe@ok.com" class="form-control">
-          </div>
-          <div class="form-group">
-            <label for="text" style="color: #F5F5F5; font-size: 20px;">your comment</label>
-            <textarea name="comment" id="comment" rows="5" class="form-control"></textarea>
-          </div>
-          <div class="form-group text-center">
-            <input type="submit" value="Send" class="button-form">
+          <div class="form">
+            <div class="form-group">
+              <label for="email" style="color: #F5F5F5; font-size: 20px;">email</label>
+              <input type="email" placeholder="johndoe@ok.com" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="text" style="color: #F5F5F5; font-size: 20px;">your comment</label>
+              <textarea name="comment" id="comment" rows="5" class="form-control"></textarea>
+            </div>
+            <div class="form-group text-center">
+              <input type="submit" value="Send" class="button-form">
+            </div>
           </div>
         </div>
       </div>

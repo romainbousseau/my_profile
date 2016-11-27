@@ -6,6 +6,7 @@
   padding: 20px 40px;
   height: 450px;
   margin: 20px;
+  box-shadow: 1px 1px 2px #808080;
 }
 
 .card-header {
