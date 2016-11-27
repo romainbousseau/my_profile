@@ -27,64 +27,100 @@
   </a>
 
   <!-- Right Navigation -->
-  <div class="navbar-wagon-right hidden-xs hidden-sm">
+    <div class="navbar-wagon-right hidden-xs hidden-sm">
 
-    <!-- Text link -->
-    <a href="" class="navbar-wagon-item navbar-wagon-link">Contact</a>
+      <!-- Text link -->
+      <a href="" class="navbar-wagon-item navbar-wagon-link">Contact</a>
 
-    <!-- Text link -->
-    <a href="" class="navbar-wagon-item navbar-wagon-link">Team</a>
-  </div>
+      <!-- Text link -->
+      <a href="" class="navbar-wagon-item navbar-wagon-link">Team</a>
+    </div>
 
   <!-- Dropdown appearing on mobile only -->
-  <div class="navbar-wagon-item hidden-md hidden-lg">
-    <div class="dropdown">
-      <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
-      <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
-        <li><a href="#">Some mobile link</a></li>
-        <li><a href="#">Other one</a></li>
-        <li><a href="#">Other one</a></li>
-      </ul>
-    </div>
-  </div>
-</div>
-
-  <div class="wrapper-navy">
-    <div class="container">
-      <div class="row col-xs-12">
-        <h1>skills</h1>
-      </div>
-    </div>
-  </div>
-
-  <div class="wrapper-sky">
-    <div class="container">
-      <div class="row col-xs-12">
-        <h1>work xp</h1>
+    <div class="navbar-wagon-item hidden-md hidden-lg">
+      <div class="dropdown">
+        <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
+        <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
+          <li><a href="#">Some mobile link</a></li>
+          <li><a href="#">Other one</a></li>
+          <li><a href="#">Other one</a></li>
+        </ul>
       </div>
     </div>
   </div>
 
   <div class="wrapper-navy">
     <div class="container">
-      <div class="row col-xs-12">
-        <h1>studies</h1>
+      <h1 class="text-center" style="color: #F5F5F5; font-family: 'Oswald' sans-serif">SKILLS</h1>
+      <div class="row">
+        <div class="col-xs-12 col-sm-6">
+          <div class="card">
+            <div class="card-header">
+              <img src="images/webdev.png" alt="webdev">
+              <h2>WEB DEVELOPEMENT</h2>
+            </div>
+            <div class="card-content">
+              <p>Ruby on Rails</p>
+              <p>HTML</p>
+              <p>CSS</p>
+              <p>JavaScript</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6">
+          <div class="card">
+            <div class="card-header">
+              <img src="images/graphic.png" alt="graphic">
+              <h2>GRAPHIC DESIGN</h2>
+            </div>
+            <div class="card-content">
+              <p>Photoshop</p>
+              <p>Illustrator</p>
+              <p>Sketch</p>
+              <p>InDesign</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 
   <div class="wrapper-sky">
     <div class="container">
-      <div class="row col-xs-12">
-        <h1>associative xp</h1>
+      <div class="row">
+        <div class="col-xs-12">
+          <h1>work xp</h1>
+        </div>
       </div>
     </div>
   </div>
 
-   <div class="wrapper-navy">
+  <div class="wrapper-navy">
     <div class="container">
-      <div class="row col-xs-12">
-        <h1>contact</h1>
+      <div class="row">
+        <div class="col-xs-12">
+          <h1>EDUCATION</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrapper-sky">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h1>associative xp</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+
+   <div class="wrapper-navy contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h1>contact</h1>
+        </div>
       </div>
     </div>
   </div>
@@ -92,6 +128,14 @@
  <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+<script>
+  $('.navbar-wagon-fixed').affix({
+    offset: {
+        top: $('.banner').height()
+    }
+  });
+</script>
 
 </body>
 </html>

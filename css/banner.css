@@ -1,5 +1,5 @@
 .banner {
-  background-image: url(../images/bannertest.png);
+  background: url(../images/bannertest.png);
   color: white;
   text-align: center;
   height: 100vh;
@@ -19,4 +19,10 @@
   font-weight: lighter;
   color: rgba(255, 255, 255, 0.7);
   margin-bottom: 20px;
+}
+
+.contact {
+  background-image: url(../images/contact.png);
+  height: 100vh;
+  background-size: cover !important;
 }
