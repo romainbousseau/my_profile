@@ -16,17 +16,17 @@
 }
 
 .button-form {
-  background-color: #FC5185;
-  color: #F5F5F5;
-  font-size: 20px;
   padding: 10px 20px;
-  border-radius: 10px;
-  text-decoration: none;
-  transition: opacity 0.3s ease;
+  border: none;
 }
 
 .button-form:hover {
   opacity: 0.7;
   text-decoration: none;
   color: #F5F5F5;
+}
+
+.button-form:focus {
+  outline: none;
+  box-shadow: none;
 }

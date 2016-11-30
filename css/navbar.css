@@ -8,6 +8,7 @@
   padding: 0px 30px;
   align-items: center;
   justify-content: space-between;
+  opacity: 0;
 }
 
 .navbar-wagon a {
@@ -22,7 +23,7 @@
 }
 
 /* Optional class to fix the navbar on top */
-.navbar-wagon-fixed.affix {
+.navbar-wagon-fixed {
   position: fixed;
   left: 0px;
   top: 0px;

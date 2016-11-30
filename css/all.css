@@ -10,12 +10,12 @@
 
 .wrapper-navy {
   background-color: #364F6B;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .wrapper-sky {
   background-color: #3FC1C9;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .title {
@@ -39,5 +39,24 @@ h4 {
 p {
   font-family: 'Open sans', sans-serif;
 }
+
+a:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
