@@ -1,0 +1,26 @@
+.modal-body {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.modal-body img {
+  flex: 0 1 auto;
+  height: 100%;
+  width: 500px;
+}
+
+.modal-text {
+  padding-top: 30px;
+  position: relative;
+}
+
+.modal-link {
+  text-decoration: none;
+  position: relative;
+  text-align: center;
+}
+
+.modal-link:hover {
+  text-decoration: none;
+}
