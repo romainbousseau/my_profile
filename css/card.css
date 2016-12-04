@@ -21,7 +21,7 @@
 }
 
 .card-content {
-
+  padding-top: 20px;
 }
 
 .card-content img {
@@ -36,6 +36,23 @@
   padding: 0 50px;
 }
 
+.card-link {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.card-link a {
+  text-decoration: none;
+}
+
+.card-link a:hover {
+  text-decoration: none;
+}
+
+.card-link a:focus {
+  text-decoration: none;
+}
+
 .card-links {
   display: flex;
   flex-flow: column;
@@ -47,6 +64,7 @@
   height: 100%;
   width: 300px;
   transition: opacity 0.3s ease;
+  box-shadow: 1px 1px 2px #B3B3B3;
 }
 
 .card-links img:hover {
